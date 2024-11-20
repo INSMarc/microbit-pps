@@ -3,11 +3,6 @@ input.onButtonPressed(Button.A, function () {
         Eleccion_Jugador += -1
     }
 })
-// No Presentar En Clase
-input.onGesture(Gesture.Shake, function () {
-    basic.showString("IA Eligiendo")
-    Eleccion_Ordenador = randint(0, 2)
-})
 input.onButtonPressed(Button.AB, function () {
     Decision_Definitiva += 1
 })
@@ -18,8 +13,7 @@ input.onButtonPressed(Button.B, function () {
 })
 let Decision_Definitiva = 0
 let Eleccion_Jugador = 0
-let Eleccion_Ordenador = 0
-Eleccion_Ordenador = randint(0, 2)
+let Eleccion_Ordenador = randint(0, 2)
 Eleccion_Jugador = 0
 basic.forever(function () {
     while (Decision_Definitiva == 0) {
