@@ -1,5 +1,6 @@
 {
     "name": "Blind Project IES+OP",
+    "version": "0.1.0",
     "description": "",
     "dependencies": {
         "core": "*",
